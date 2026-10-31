@@ -1,23 +1,23 @@
 class Srz < Formula
   desc "Fast, modular CLI to summarize webpages, documents, books, and live news using local LLMs"
   homepage "https://github.com/NewGuy012/srz"
-  version "0.6.0"
+  version "0.6.1"
 
   on_macos do
     on_arm do
       url "https://github.com/NewGuy012/srz/releases/download/v#{version}/srz-v#{version}-aarch64-apple-darwin.tar.gz"
-      sha256 "58bea8418235ef06e4a26aee0da133d01f3ec73b8a43ce8f9dcc495943d131bf"
+      sha256 "91cbd2767856688ab14073e416a12d697e66c3f24d36a20c9a5a57c3a4259ac7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/NewGuy012/srz/releases/download/v#{version}/srz-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "38cb18e1a53961f86945cd4caa7d272249d9c050cc0674e9513b35341d31dce2"
+      sha256 "6d362480405c077484e09a5961ef0c7f7c8606ae0c19f85300ab8fb9f0a22826"
     end
     on_arm do
       url "https://github.com/NewGuy012/srz/releases/download/v#{version}/srz-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "dc961fa4374fb1c13fe045a5a3461589395857eef5439058cb34a86e7c1e8ba9"
+      sha256 "3e654638a8b1aff865bee09179df65a0d77e4f024e2ab967e279715e697e10a3"
     end
   end
 
